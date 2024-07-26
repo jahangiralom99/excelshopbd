@@ -104,8 +104,10 @@ const Order = () => {
             <div className="mt-12">
               <h1 className="text-xl font-bold">গ্রোথিং প্যাকেজঃ</h1>
               <div className="bg-[#bbdac3]  border border-black shadow p-5 flex gap-6 mt-4 rounded-md relative">
-                <div className="absolute rotate-45 -right-4">
-                  <span className="bg-[#f16334] text-white px-3 text-sm">ডেলিভারি ফ্রি</span>
+                <div className="absolute hidden lg:block rotate-45 -right-4">
+                  <span className="bg-[#f16334] text-white px-3 text-sm">
+                    ডেলিভারি ফ্রি
+                  </span>
                 </div>
                 <div>
                   <input

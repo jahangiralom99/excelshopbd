@@ -18,7 +18,7 @@ const Banner = () => {
       {/* youtube the thumbnell */}
       <div className="max-w-screen-xl mx-auto mt-8">
         <iframe
-          className="w-full h-96 md:h-[500px] lg:h-[700px] border border-black"
+          className="w-full h-96 md:h-[400px] lg:h-[700px] border border-black"
           src="https://www.youtube.com/embed/pWMMTEJ2yCA?si=zef5z8Or0732fkAg"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
