@@ -142,7 +142,7 @@ const Order = () => {
             <div className="mt-5 flex items-center justify-between gap-3  text-sm font-semibold">
               <div className="flex items-center gap-3">
                 <img className="w-12 rounded" src={logo} alt="" />
-                <p>P106 | উদ্যোক্তা প্যাকেজ</p>
+                <p>এক্সেল হেয়ার গ্রোথিং প্রিমিয়াম প্যাকেজ</p>
               </div>
               <div>
                 <p>× 1 390.00৳ </p>
