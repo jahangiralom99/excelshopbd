@@ -17,10 +17,11 @@ const Order = () => {
   return (
     <div className="p-8">
       <div className="bg-white border-2 border-black rounded mt-12 max-w-screen-xl mx-auto p-6">
-        <p className="text-center font-bold md:text-2xl">
+        <p className="text-center font-bold md:text-2xl lg:text-3xl">
           অর্ডার করতে আপনার সঠিক তথ্য দিয়ে নিচের ফর্মটি সম্পূর্ণ পূরন করুন। (আগে
           থেকে কোন টাকা দেয়া লাগবে না। প্রোডাক্ট হাতে পাবার পর টাকা দিবেন)
-        </p>
+              </p>
+              <hr className="mt-5 border-black" />
         <div className="flex flex-col gap-8 md:flex-row justify-between mt-10 ">
           <div className="md:flex-1">
             <h2 className="font-bold text-xl">Billing details</h2>
@@ -154,7 +155,7 @@ const Order = () => {
             <div className="flex text-sm font-semibold justify-between items-center gap-3 mt-5">
               <p>SubTotal</p>
               <div>
-                <p className="text-end">390 $</p>
+                <p className="text-end">2,590.00 $</p>
                 <div className="flex items-center gap-2">
                   <input
                     className="accent-red-500"
@@ -162,7 +163,7 @@ const Order = () => {
                     name="b"
                     id="background"
                   />
-                  <p>ঢাকা সিটির বাহিরে: ৳ 120.00</p>
+                  <p>পুরো বাংলাদেশ: ৳ 80.00</p>
                 </div>
               </div>
             </div>
@@ -170,13 +171,13 @@ const Order = () => {
               <p>Shopping</p>
               <div className="flex items-center gap-2">
                 <input className="accent-red-500" type="radio" name="" id="" />
-                <p>ঢাকা সিটির ভিতরে: ৳ 70.00</p>
+                <p>ফ্রি ডেলিভারি</p>
               </div>
             </div>
             <p className="border-b-2 border-dashed mt-5 "></p>
-            <div className="flex  text-sm font-bold justify-between items-center gap-3 mt-5">
+            <div className="flex text-sm font-bold justify-between items-center gap-3 mt-5">
               <p>Total</p>
-              <p>390</p>
+              <p>2,670.00 ৳</p>
             </div>
             <div className="bg-[#f4f8fa] relative p-4 mt-5 rounded">
               <div className="flex items-center gap-3">
