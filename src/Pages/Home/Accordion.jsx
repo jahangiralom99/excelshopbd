@@ -10,9 +10,9 @@ const Accordion = () => {
         {/* Accordions */}
       <div className="mt-8">
           {/*<!-- Component: Basic accordion --> */}
-          <section className="w-full divide-y rounded ">
+          <section className="w-full divide-y rounded divide-slate-200">
             <details className="p-4 group" open>
-              <summary className="relative cursor-pointer list-none pr-8 text-[#0e77a4] transition-colors duration-300 focus-visible:outline-none [&::-webkit-details-marker]:hidden font-bold">
+              <summary className="relative cursor-pointer list-none pr-8 text-[#0e77a4] transition-colors duration-300 focus-visible:outline-none  [&::-webkit-details-marker]:hidden font-bold group-hover:text-slate-800">
               এটি কি তেল? কি কি উপাদান দিয়ে তৈরি?
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

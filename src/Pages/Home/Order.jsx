@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { FaLock } from "react-icons/fa";
-import { MdOutlineCallToAction, MdOutlineCheckBox } from "react-icons/md";
 import logo from "../../assets/premium-package-450x450.png";
+import { IoMdArrowDropup } from "react-icons/io";
 
 const Order = () => {
   const {
@@ -103,7 +103,31 @@ const Order = () => {
             {/* গ্রোথিং প্যাকেজঃ */}
             <div className="mt-12">
               <h1 className="text-xl font-bold">গ্রোথিং প্যাকেজঃ</h1>
-              <div className="bg-[#f3f3f3]  mt-4 rounded-md"></div>
+              <div className="bg-[#bbdac3]  border border-black shadow p-5 flex gap-6 mt-4 rounded-md relative">
+                <div className="absolute rotate-45 -right-4">
+                  <span className="bg-[#f16334] text-white px-3 text-sm">ডেলিভারি ফ্রি</span>
+                </div>
+                <div>
+                  <input
+                    className="accent-red-500"
+                    type="radio"
+                    name=""
+                    id=""
+                  />
+                </div>
+                <div>
+                  <img className="w-12 rounded" src={logo} alt="" />
+                </div>
+                <div className="space-y-3">
+                  <h3 className="font-bold">
+                    এক্সেল হেয়ার গ্রোথিং প্রিমিয়াম প্যাকেজ
+                  </h3>
+                  <p className="text-sm text-slate-700">
+                    ১০০০ টাকা ডিস্কাউন্ট এবং ডেলিভারি চার্জ ফ্রি
+                  </p>
+                  <p className="font-bold">৳ 2,590.00</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -152,9 +176,12 @@ const Order = () => {
               <p>Total</p>
               <p>390</p>
             </div>
-            <div className="bg-[#f4f8fa] p-4 mt-5 rounded">
+            <div className="bg-[#f4f8fa] relative p-4 mt-5 rounded">
               <div className="flex items-center gap-3">
                 <p>ক্যাশ অন ডেলিভারি</p>
+              </div>
+              <div className="absolute top-6 left-6">
+                <IoMdArrowDropup className="text-6xl text-[#89bc97]" />
               </div>
               <p className="p-4 bg-[#89bc97] mt-4 text-sm text-white">
                 কোন টাকা অগ্রিম ছাড়াই অর্ডার করুন।
