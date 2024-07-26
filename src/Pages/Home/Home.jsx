@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div>
       <Banner />
-          <Accordion />
-          <Order/>
+      <Accordion />
+      <Order />
     </div>
   );
 };
